@@ -1,16 +1,12 @@
-# SENG8120 Modern Automated Testing 
+# SENG8120 Modern Automated Testing: Canvas Size & Paint Calculator
 
 ## Purpose
 
-This repository houses the code we require for examples and assignments.
+This repository demonstrates test driven implementation of functions used to calculate:
+- The **canvas size** (area) from user-provided dimensions
+- The **amount of paint required** based on the area and paint coverage
 
-## Repository Usage
-
-This repository will contain branches of code.
-
-Please refer to your instructor's directions on how to use this repository.
-
-## Branch Usage
+## Getting Started
 
 **Installing The Dependencies**
 
@@ -57,3 +53,7 @@ To run a specific test, you can use
 npm run test [my test name]
 ```
 
+## Author
+
+**Harshavardhan Reddy Singireddy**  
+*Date: 15-06-2025*
