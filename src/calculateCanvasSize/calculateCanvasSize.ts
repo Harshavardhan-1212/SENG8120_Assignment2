@@ -3,8 +3,8 @@ export default function calculateCanvasSize(
   width: string
 ) {
 
-  const parsedLength = Number(length);
-  const parsedWidth = Number(width);
+  const parsedLength = parseFloat(length);
+  const parsedWidth = parseFloat(width);
 
   if (isNaN(parsedLength) || isNaN(parsedWidth)) {
     throw new Error("Invalid input. length and width must be number.");
@@ -14,5 +14,5 @@ export default function calculateCanvasSize(
     throw new Error("Length and width must be greater than zero");
   }
 
-  return parseInt(length) * parseInt(width);
+  return parsedLength * parsedWidth;
 }
